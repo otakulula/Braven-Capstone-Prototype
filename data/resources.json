@@ -1,0 +1,15 @@
+[
+ {"id":"networking","icon":"🤝","title":"Braven Networking Event","activity":"networking","challenge_label":"meeting professionals",
+  "blurb":"Meet Fellows, alumni and professionals in a relaxed setting. (Sample listing: swap in a real event.)",
+  "goals":["internship","job","explore"],"helps_with":["networking","direction","confidence"],
+  "quest":[
+   {"id":"expect","type":"read","title":"Know what to expect","text":"Surprises are what make events scary, so let's remove them.","items":["It opens with a short welcome, then relaxed mingling.","Most people there are also working on their networking.","You can arrive late, leave early, or listen first.","Chats run 3 to 5 minutes. Nobody expects a perfect pitch."]},
+   {"id":"intro","type":"write","title":"Write your 20-second intro","text":"Fill in the blanks, then say it out loud once. That's it.","template":"Hi, I'm ___. I'm studying ___ at ___. I'm interested in ___ and hoping to learn more about ___."},
+   {"id":"question","type":"pick","title":"Prepare one question","text":"One good question keeps a conversation going. Pick one or write your own.","options":["How did you get started in your career?","What do you wish you'd known as a student?","What does a normal week look like in your role?","Which skills matter most in your work?"]},
+   {"id":"details","type":"confirm","title":"Review the event details","text":"Check the basics so there are no day-of surprises.","event":{"When":"Thursday, 6:00 to 7:30 PM PT (sample)","Where":"Virtual, link sent after registering (sample)","Who":"Fellows, alumni, volunteer professionals","Dress":"Casual"}},
+   {"id":"ready","type":"decide","title":"Decide when you're ready","text":"How do you feel now that you have an intro, a question and the details?"},
+   {"id":"boss","type":"boss","title":"Attend the networking event","text":"You have your intro, your question and the plan. Time to show up.","event":{"When":"Thursday, 6:00 to 7:30 PM PT (sample)","Where":"Virtual, link sent after registering (sample)"}}
+  ]},
+ {"id":"coaching","icon":"🧭","title":"One-on-One Career Coaching","activity":"coaching","challenge_label":"knowing where to start","blurb":"Talk through your goals with a coach.","goals":["explore","job","grad"],"helps_with":["direction","interviews"],"quest":[]},
+ {"id":"resume","icon":"📄","title":"Resume Review","activity":"resume","challenge_label":"resumes and applications","blurb":"Get feedback before you apply.","goals":["internship","job"],"helps_with":["resume"],"quest":[]}
+]

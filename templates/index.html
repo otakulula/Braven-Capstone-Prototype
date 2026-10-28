@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pathfinder: your next career step</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+<header><h1>Pathfinder</h1><p>Find the right career resource, then take it one small step at a time.</p>
+<ol id="stepper"><li class="on">Tell us about you</li><li>Your match</li><li>Your path</li></ol></header>
+<main>
+ <section class="view">
+  <form id="quiz"></form>
+  <div class="row"><button class="btn" form="quiz" type="submit">See my match</button>
+  <button class="btn ghost" id="demo" type="button">Fill demo answers</button></div>
+ </section>
+ <section class="view" id="results" hidden></section>
+ <section class="view" id="quest" hidden></section>
+</main>
+<footer>Prototype for a class capstone. Event details are sample data. <a href="#" id="reset">Start over</a></footer>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body></html>

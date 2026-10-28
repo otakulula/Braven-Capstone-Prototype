@@ -1,0 +1,8 @@
+[
+ {"id":"goal","type":"single","label":"What's your main career goal right now?","options":[["internship","Land an internship"],["job","Get a full-time job"],["explore","Explore career paths"],["grad","Prepare for grad school"]]},
+ {"id":"field","type":"single","label":"Which area interests you most?","options":[["tech","Tech and engineering"],["business","Business and finance"],["health","Health and science"],["creative","Media and creative"],["undecided","Not sure yet"]]},
+ {"id":"challenges","type":"multi","label":"What feels hardest right now? Pick any.","options":[["direction","Knowing where to start"],["networking","Meeting professionals"],["resume","Resume and applications"],["interviews","Interviews"],["confidence","Feeling confident"]]},
+ {"id":"comfort","type":"scale","label":"How comfortable are you with each of these? 1 is very nervous, 5 is very comfortable.","items":[["networking","Attending a networking event"],["coaching","One-on-one career coaching"],["resume","Getting a resume review"]]},
+ {"id":"time","type":"single","label":"How much time can you spare each week?","options":[["short","Under 1 hour"],["medium","1 to 3 hours"],["long","3+ hours"]]},
+ {"id":"format","type":"single","label":"What format do you prefer?","options":[["virtual","Virtual"],["inperson","In person"],["either","Either"]]}
+]
